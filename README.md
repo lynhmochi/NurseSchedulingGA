@@ -1,8 +1,10 @@
 # NurseSchedulingGA
 
+This problem was derived from a ModelAI assignment by Chris Brooks, University of San Francisco
+
 GOAL: assessing what effect different genetic operators have on your evolved schedules
 
-SETUP: given our earlier constraints and Chromo paramter values
+SETUP: given constraints and Chromo paramter values
 
 ***
 
