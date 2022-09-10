@@ -2,7 +2,7 @@
 
 This problem was derived from a ModelAI assignment by Chris Brooks, University of San Francisco
 
-GOAL: assessing what effect different genetic operators have on your evolved schedules
+GOAL: assessing what effect different genetic operators have on evolved schedules
 
 SETUP: given constraints and Chromo paramter values
 
@@ -32,7 +32,7 @@ Constraints (each violation = 1 penalty; positive or negative doesn't matter; we
 - No nurse can work more than three days in a row without a day off. 
 - Nurses prefer consistency - they would like to always work the same shift (days, evenings,  or nights). 
 
-Limit your generations to 1000 (change the timeout).
+Limit generations to 1000 (change the timeout).
 Set number of runs to be at least 20 (can do more).
 
 All tests can be shown me as graphs using the Visualizer (recall that any points at the timeout value on the vertical axis means we didn't find a solution in time); can show multiple tests per graph.
