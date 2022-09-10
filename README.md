@@ -37,7 +37,7 @@ Set number of runs to be at least 20 (can do more).
 
 All tests can be shown me as graphs using the Visualizer (recall that any points at the timeout value on the vertical axis means we didn't find a solution in time); can show multiple tests per graph.
 ***
-OUTCOME: 
+**OUTCOME**
 
 Horizontal Priority crossover & mutation #2 & crossoverRate = 0.9
 
