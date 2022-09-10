@@ -147,7 +147,7 @@ public class Chromo  implements Comparable<Chromo>{
   }
 
 
-  public int[][] policyInit(){
+  public int[][] policyInit(){ 
     Random rand = new Random();
     int[][] res = new int[nurses][days];
     for (int i = 0; i < nurses; i++) {
