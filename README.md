@@ -4,14 +4,21 @@ GOAL: assessing what effect different genetic operators have on your evolved sch
 
 SETUP: given our earlier constraints and Chromo paramter values
 
-  public static int nurses = 7;//rows
-	public static int days = 7; //columns
-	public static int shiftsPerDay = 3; //possible values in cell are [0,shiftsPerDay]
-	public static int maxShiftsInRow = 3;
-	public static int minNurses = 1; //per shift
-	public static int maxNurses = 3; //per shift
-	public static int minShifts = 5; //per nurse per week
-	public static int maxShifts = 5; //per nurse per week
+public static int nurses = 7;		//rows
+  
+public static int days = 7; 		//columns
+  
+public static int shiftsPerDay = 3; 	//possible values in cell are [0,shiftsPerDay]
+  
+public static int maxShiftsInRow = 3;
+	
+public static int minNurses = 1; //per shift
+
+public static int maxNurses = 3; //per shift
+
+public static int minShifts = 5; //per nurse per week
+
+public static int maxShifts = 5; //per nurse per week
 
 Constraints (each violation = 1 penalty; positive or negative doesn't matter; we want 0)
 - There must be at least one nurse, and at most three nurses, on each shift. 
