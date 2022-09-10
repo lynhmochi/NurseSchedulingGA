@@ -45,6 +45,6 @@ Magenta: mutationRate = 0.5
 
 Cyan: mutationRate = 1
 
-The larger the mutation rate, the more outliers it produces. A mutation rate of 0.5 seems to be a safe bet as the distribution of solution gen is quite concentrated.
+The larger the mutation rate, the more outliers it produces. A mutation rate of 0.5 seems to be a safe bet as the distribution of solution gen is quite concentrated. This is the optimal combination which takes less than 100 generations on average to converge, with few exceptions of outliers.
 
 <img width="359" alt="image" src="https://user-images.githubusercontent.com/55603454/189461861-27e445f1-8d80-487a-9ff6-a012b2cbe76b.png">
