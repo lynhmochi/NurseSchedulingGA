@@ -36,3 +36,15 @@ Limit your generations to 1000 (change the timeout).
 Set number of runs to be at least 20 (can do more).
 
 All tests can be shown me as graphs using the Visualizer (recall that any points at the timeout value on the vertical axis means we didn't find a solution in time); can show multiple tests per graph.
+
+OUTCOME: 
+
+Horizontal Priority crossover & mutation #2 & crossoverRate = 0.9
+
+Magenta: mutationRate = 0.5 
+
+Cyan: mutationRate = 1
+
+The larger the mutation rate, the more outliers it produces. A mutation rate of 0.5 seems to be a safe bet as the distribution of solution gen is quite concentrated.
+
+<img width="359" alt="image" src="https://user-images.githubusercontent.com/55603454/189461861-27e445f1-8d80-487a-9ff6-a012b2cbe76b.png">
