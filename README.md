@@ -2,7 +2,7 @@
 
 This problem was derived from a ModelAI assignment by Chris Brooks, University of San Francisco.
 
-I came up with a novel (to the best of my knowledge) crossover method called Horizontal Priority crossover that converges in less than 100 generations. It's pretty primitive but I hope there'd be room for development in the future!
+I came up with a novel (to the best of my knowledge) crossover method called Horizontal Priority crossover that converges in less than 100 generations. It's pretty primitive for the time being but I hope there'd be room for development in the future!
 
 GOAL: assessing what effect different genetic operators have on evolved schedules
 
